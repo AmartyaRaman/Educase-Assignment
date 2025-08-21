@@ -19,7 +19,8 @@ const Signup = () => {
     }
   }, [fullname, phone, email, password, agency])
 
-  const handleSignup = () => {
+  const handleSignup = (e) => {
+    e.preventDefault();
     if (filled) {
       navigate('/account');
     }

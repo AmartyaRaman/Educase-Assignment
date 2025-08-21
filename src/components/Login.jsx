@@ -13,7 +13,8 @@ const Login = () => {
     else setFilled(false);
   }, [email, password])
 
-  const handleLogin = () => {
+  const handleLogin = (e) => {
+    e.preventDefault();
     if (filled) {
       navigate('/account');
     }
@@ -61,7 +62,7 @@ const Login = () => {
                 Password
             </label>
 
-            <button disabled={!filled} className='bg-[rgb(112,36,252)] cursor-pointer p-2 font-medium text-white rounded-md w-full mt-3 disabled:bg-gray-400' onClick={handleLogin}>Login</button>
+            <button type="button" disabled={!filled} className='bg-[rgb(112,36,252)] cursor-pointer p-2 font-medium text-white rounded-md w-full mt-3 disabled:bg-gray-400' onClick={handleLogin}>Login</button>
           </div>
         </form>
       </div>
