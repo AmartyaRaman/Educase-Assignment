@@ -22,8 +22,8 @@ const Account = () => {
           </div>
         </div>
         <p className='text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, illo. Amet magnam veniam est blanditiis nobis iure soluta aliquid adipisci distinction.</p>
-        <div className="border-b-2 border-dashed border-gray-200 mt-2 -mx-8"></div>
-        <div className="mt-auto border-b-2 border-dashed border-gray-200 -mx-8"></div>
+        <div className="border-b-2 border-dashed border-gray-200 mt-2 -mx-5"></div>
+        <div className="mt-auto border-b-2 border-dashed border-gray-200 -mx-5"></div>
       </div>
     </div>
   )
